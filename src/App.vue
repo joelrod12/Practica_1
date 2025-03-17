@@ -5,6 +5,7 @@ import NotasListas from './components/NotasListas.vue'
 import FiltrarNotas from './components/FiltrarNotas.vue'
 import EtiquetasFormulario from './components/EtiquetasFormulario.vue'
 import EtiquetasLista from './components/EtiquetasLista.vue'
+import AppSidebar from './components/AppSidebar.vue'
 
 const almacenamiento = almacenamientoNotas()
 
@@ -18,7 +19,7 @@ const agregarNuevaEtiqueta = (tags: { etiquetas: string[], color: string }) => {
 
 <template>
   <div>
-    <!-- Título -->
+    <AppSidebar/>
     <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Notas</h1>
 
     <!-- Formulario para agregar notas -->
