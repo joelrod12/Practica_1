@@ -20,7 +20,7 @@ const agregarNuevaEtiqueta = (tags: { etiquetas: string[], color: string }) => {
 <template>
   <div>
     <AppSidebar/>
-    <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Notas</h1>
+    <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Notassdszd</h1>
 
     <!-- Formulario para agregar notas -->
     <div class="mb-6">
